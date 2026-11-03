@@ -1,0 +1,6 @@
+project_id = "keywwriietabgahtropc"
+
+# admin-api tự xác thực người gọi bằng auth.getUser() + kiểm tra role admin,
+# nên không cần cổng verify_jwt (cổng này còn hay lỗi với JWT signing key mới).
+[functions.admin-api]
+verify_jwt = false

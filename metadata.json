@@ -1,0 +1,6 @@
+{
+  "name": "Course & Account Admin",
+  "description": "Admin dashboard for managing student accounts, courses, and Japanese language lessons data with JSON output support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
